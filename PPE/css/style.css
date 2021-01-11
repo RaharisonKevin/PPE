@@ -1,0 +1,139 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p, figure, ul, th{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+   list-style: none;
+}
+header div .logo{
+    position: absolute;
+    width: 10rem;
+    margin: .5rem;
+}
+header nav img{
+    max-width: 12rem;
+    margin-left: 20rem;
+    margin-top: 0.6rem;
+}
+header div{
+    background-color: #fafafa;
+    height: 5.5rem;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    overflow: hidden;
+    background-color:#fafafa;
+}
+nav ul{
+    margin: -2rem 0rem 0rem 30rem;
+    position: fixed;
+}
+
+nav ul li{
+    display: inline-block;
+}
+  
+nav a {
+    display: inline-block;
+    color: #222;
+    text-align: center;
+    padding: 16px 29px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+nav a:hover {
+    background-color: #222;
+    color: #fff;
+}
+  
+section h1 img{
+    max-width: auto;
+    margin: 0.5rem 0rem 0rem 0rem;
+    width: 168.6rem;
+}
+
+section h1{
+    position: absolute;
+    margin: -37rem 0 0 35rem;
+    font-size: 9rem;
+    color: #fafafa;
+    font-weight: bolder;
+    
+}
+
+section ul{
+    text-align: center;
+    margin-top: 11rem;
+    font-weight: bold;
+    color: #222;
+    margin: -20rem 0 0 4rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20rem;
+}
+
+section ul img{
+    padding: 0.3rem;
+    max-width: 30rem;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 90%);
+}
+
+ 
+h2{
+    color: #424040;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10rem;
+    padding: 0.2rem;
+
+}
+footer{
+    background-color: #222;
+    padding: 15rem;
+}
+
+footer h1{
+    text-align: center;
+    padding: 7rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+footer #reservation p{
+    padding: 1rem;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    margin: 0rem 0rem 0rem 16rem;
+}
+
+footer #copyright{
+    color: #fff;
+    margin: 6rem 0rem 0rem 61rem ;
+}
+
+
+
+
