@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&display=swap');
 html{
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
 body{
-    font: 1.6rem sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -78,16 +79,26 @@ nav a:hover {
     color: #fff;
 }
 
-  
+main section h1{
+    background-image: url(../asset/famille-hiver-neige-ambiance-311.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffffff;
+    padding: 32rem 0;
+    font-size: 8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
 section h1 img{
     max-width: auto;
     margin: 0.5rem 0rem 0rem 0rem;
-    width: 168.6rem;
+    
 }
 
-section h1{
-    position: absolute;
-    margin: -37rem 0 0 35rem;
+h1{ 
     font-size: 9rem;
     color: #fafafa;
     font-weight: bolder;
