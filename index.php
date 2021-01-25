@@ -15,6 +15,8 @@ include_once('./src/footer.inc.php') ?>
   
  
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 <script src="./js/app.js"></script>
+
 </body>
 </html>
