@@ -1,12 +1,16 @@
-window.onscroll = function() {myFunction()};
+document.addEventListener("DOMContentLoaded", () => {
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+const menuList = document.querySelectorAll("header nav ul li a");
+
+for (let i = 0; i < menuList.length - 1; i++) {
+  menuList[i].addEventListener("click", () => {
+    for (let i = 0; i < menuList.length - 1; i++) {
+      menuList[i].classList.remove("active");
+      menuList[i].classList.add("remove");
+    }
+    menuList[i].classList.remove("remove");
+    menuList[i].classList.add("active");
+  });
 }
+});
